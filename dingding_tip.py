@@ -7,7 +7,7 @@ import configparser
 
 class dingding:
     def __init__(self,data=None):
-        self.url = 'https://oapi.dingtalk.com/robot/send?access_token=30ab91120372f39d361f173762d050797d04eb548d79faadc78a6eaf5c5dfb24'
+        self.url = ''
         self.header = {
                        'Content-type':'application/json',
 		               'Charset':'utf-8'
